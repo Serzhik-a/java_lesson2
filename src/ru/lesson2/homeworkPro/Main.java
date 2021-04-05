@@ -12,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         StringBuilder input;
 
-        while (true) {
+        while (true) {                                                          //вывод опроса в цикле
             System.out.print("Что вы хотите посмотреть?: ");
             input = new StringBuilder(scanner.nextLine().toLowerCase());
             switch (input.toString()) {

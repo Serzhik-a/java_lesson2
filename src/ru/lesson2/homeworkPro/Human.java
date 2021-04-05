@@ -6,7 +6,7 @@ public class Human implements ShowInfo, CanPet {
     int age;                //возраст
     int heigh;              //рост
     int passportNumber;     //номер пасспорта
-    char gender;
+    char gender;            //пол
 
     public void canSpeaking() {
         System.out.println("I can speak");
@@ -48,7 +48,7 @@ public class Human implements ShowInfo, CanPet {
         comeIn.comeIn();
     }
 
-    public void petMe () {
+    public void petMe() {
         System.out.println("Могу погладить " + name);
     }
 }

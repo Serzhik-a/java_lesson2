@@ -2,12 +2,6 @@ package ru.lesson2.homeworkPro;
 
 public class Giraffe extends Animal implements ShowInfo, CanPet {
 
-    int age;                //возраст
-    int heigh;              //рост
-    char gender;          //пол
-    String name;            //имя
-    String country;          //место обитания
-
     public void canEating() {
         System.out.println("I can eat leaves from trees");
     }
