@@ -1,5 +1,5 @@
 package ru.lesson2.homeworkPro;
 
-interface canComeIn {
+interface CanComeIn {
     void comeIn();
 }

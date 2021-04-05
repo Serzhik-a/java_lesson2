@@ -1,6 +1,6 @@
 package ru.lesson2.homeworkPro;
 
-public class Room extends House implements ShowInfo, canComeIn {
+public class Room extends House implements ShowInfo, CanComeIn {
     String name;            //название
     int width;                //ширина
     int heigh;              //высота

@@ -19,12 +19,14 @@ public class Main {
                 case ("посмотреть парня"): {
                     man.showInfo();
                     man.petSomewone(giraffe);
+                    man.petSomewone(woman);
                     man.comeIntoRoom(room);
                     return;
                 }
                 case ("посмотреть девушку"): {
                     woman.showInfo();
                     woman.petSomewone(giraffe);
+                    woman.petSomewone(man);
                     woman.comeIntoRoom(room);
                     return;
                 }

@@ -52,6 +52,6 @@ public class Giraffe extends Animal implements ShowInfo, CanPet {
     }
 
     public void petMe() {
-        System.out.println("Могу покормить жирафа " + name);
+        System.out.println("Могу погладить жирафа " + name);
     }
 }
